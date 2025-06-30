@@ -33,19 +33,20 @@
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
-          <div class="user_option">
+                    <div class="user_option">
             <a href="{{url('login')}}">
               <i class="fa fa-user" aria-hidden="true"></i>
               <span>
                 Login
               </span>
-            </a>
+            </a> <!-- Tambahkan penutup ini -->
 
             <a href="{{url('register')}}">
               <i class="fa fa-vcard" aria-hidden="true"></i>
               <span>
                 Register
               </span>
+            </a> <!-- Tambahkan penutup ini -->
 
             <a href="">
               <i class="fa fa-shopping-bag" aria-hidden="true"></i>

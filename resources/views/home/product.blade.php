@@ -8,202 +8,202 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $200
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Ring</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $200
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Watch
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $300
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Watch</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $300
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Teddy Bear
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $110
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Teddy Bear</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $110
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flower Bouquet
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $45
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Flower Bouquet</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $45
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p5.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Teddy Bear
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $95
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Teddy Bear</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $95
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p6.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flower Bouquet
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $70
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Flower Bouquet</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $70
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p7.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Watch
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Watch</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $400
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
-              <div class="img-box">
+            <div class="img-box">
+              <a href="">
                 <img src="images/p8.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $450
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
+              </a>
+            </div>
+            <div class="detail-box">
+              <h6>
+                <a href="">Ring</a>
+              </h6>
+              <h6>
+                Price
                 <span>
-                  New
+                  $450
                 </span>
-              </div>
-            </a>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
           </div>
         </div>
       </div>
