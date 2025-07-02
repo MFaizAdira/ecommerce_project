@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Dark Bootstrap Admin </title>
     <meta name="description" content="">
@@ -18,6 +19,12 @@
     <link rel="stylesheet" href="{{ asset('admincss/scss/custom.css') }}">
     <!-- Favicon-->
     <link rel="shortcut icon" href="{{ asset('admincss/img/favicon.ico') }}">
+    <!-- ...existing code... -->
+<link rel="stylesheet" href="{{ asset('admincss/scss/custom.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<!-- Favicon-->
+<link rel="shortcut icon" href="{{ asset('admincss/img/favicon.ico') }}">
+<!-- ...existing code... -->
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

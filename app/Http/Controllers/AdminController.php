@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Category;
 
+use App\Models\Product;
+
 class AdminController extends Controller
 {
     public function view_category()
@@ -25,6 +27,8 @@ class AdminController extends Controller
         $category->save();
 
         return redirect()->back()->with('message', 'Category Added Successfully');
+
+
 
 
     }
@@ -64,7 +68,47 @@ public function update_category(Request $request, $id)
     } else {
         return redirect()->back()->with('error', 'Category Not Found');
     }
-}
 
 }
 
+public function add_product()
+{
+
+    $category = Category::all();
+    return view('admin.add_product',compact('category'));
+
+
+}
+
+public function upload_product(Request $request)
+{
+    $data = new Product;
+
+    $data->title = $request->title;
+    $data->description = $request->description;
+    $data->prize = $request->prize;
+    $data->quantity = $request->qty;
+    $data->category = $request->category;
+    $image = $request->image;
+    if ($image) {
+        $imagename = time() . '.' . $image->getClientOriginalExtension();
+        $request->image->move('product', $imagename);
+        $data->image = $imagename;
+    } else {
+        $data->image = null; // Set to null if no image is uploaded
+    }
+
+    $data->save();
+
+
+    return redirect()->back()->with('message', 'Product Added Successfully');
+
+}
+
+
+public function view_product()
+{
+    $products = Product::all();
+    return view('admin.view_product', compact('products'));
+}
+}
