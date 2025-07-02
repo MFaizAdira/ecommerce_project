@@ -111,4 +111,15 @@ public function view_product()
     $products = Product::all();
     return view('admin.view_product', compact('products'));
 }
+
+public function delete_product($id)
+{
+    $data = Product::find($id);
+
+    $data->delete();
+
+    return redirect()->back()->with('message', 'Product Deleted Successfully');
 }
+
+}
+ 

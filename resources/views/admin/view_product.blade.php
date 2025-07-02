@@ -57,6 +57,7 @@
         <th>Price</th>
         <th>Quantity</th>
         <th>Image</th>
+        <th>Delete</th>
     </tr>
     @foreach ($products as $product)
     <tr>
@@ -71,7 +72,9 @@
             @else
                 -
             @endif
-        </td>
+       <td>
+    <a class="btn btn-danger" onclick="return confirm('Are you sure to delete this product?')" href="{{ url('delete_product', $product->id) }}">Delete</a>
+</td>
     </tr>
     @endforeach
 </table>

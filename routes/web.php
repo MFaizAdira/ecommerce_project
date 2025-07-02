@@ -46,6 +46,10 @@ middleware(['auth', 'admin']);
 route::get('view_product', [AdminController::class, 'view_product'])->
 middleware(['auth', 'admin']);
 
+route::get('delete_product/{id}', [AdminController::class, 'delete_product'])->
+middleware(['auth', 'admin']);
+
+
 
 
 
